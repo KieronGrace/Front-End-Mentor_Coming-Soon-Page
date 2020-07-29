@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="ba_mobile_style.css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  <!-- div mainBody to hold main text of body located on left side of screen-->
+  <div id="mainBody">
+    <img src="images\logo.svg" alt="Base Apparel Logo">
+
+    <h1><span id="we're">We're</span> coming soon</h1>
+      <p>Hello fellow shoppers! We're currently building our new fashion store.
+      Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+    <div id="emailInputArea"> <!--Div emailInputArea to hold email input form-->
+      <label for="emailInput">Email Address</label>
+      <input id="emailInput"></input>
+      <button type="button" name="submitButton"><img src="images\icon-arrow.svg" alt="Submit Arrow"/></button>
+    </div>
+  </div>
+
+<!--images for mobile and desktop sites-->
+  <picture id="desktopHero">
+    <source srcset="images\hero-mobile.jpg" media="(max-width: 600px)"/>
+    <source srcset="images\hero-desktop.jpg"/>
+    <img src="images\hero-desktop.jpg" alt="Image of model wearing Base Apparel"/>
+  </picture>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/KieronGrace?tab=repositories">Kieron Roberson</a>.
+    </p>
+  </footer>
+</body>
+</html>

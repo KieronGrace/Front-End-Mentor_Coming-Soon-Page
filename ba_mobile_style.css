@@ -1,0 +1,12 @@
+body {
+  background-image: url("/images/bg-patterns-desktop.svg");
+}
+
+#desktopHero {
+  min-width: 100%;
+  height: auto;
+}
+
+#mainBody {
+
+}
